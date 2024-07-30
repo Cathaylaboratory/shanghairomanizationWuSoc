@@ -127,9 +127,6 @@ speller:
     - derive/^in/yin/
     - derive/^u/w/
     - derive/^u/wu/
-    - derive/^nh/n/
-    - derive/^mh/m/
-    - derive/^lh/l/
     - derive/^gh//
    
 
