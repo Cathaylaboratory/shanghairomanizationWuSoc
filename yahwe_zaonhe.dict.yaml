@@ -16,13 +16,39 @@
 
 ---
 name: yahwe_zaonhe
-version: "2024.07.30"
+version: "2024.08.01"
 sort: by_weight
 use_preset_vocabulary: true
 # import_tables: 
 #   - qieyun_zaonhe # use with ℞ edward-martyr/rime-qieyun_zaonhe
 ...
-#漢吳詞
+#純吳詞
+牙	ngo
+芽	ngo
+衙	ngo
+蚜	ngo
+砑	ngo
+犽	ngo
+伢	ngo
+茄	ka
+茄	ko
+痂	ko
+駕	ko
+嫁	ko
+嘉	ko
+佳	ko
+架	ko
+假	ko
+加	ko
+價	ko
+家	ko
+差	tsho
+語言	nyu nyie
+言	nyie
+語言	nyu yie
+倷	na
+搭	teh
+上海閒話	zaon he ghae gho
 遙望
 不	veh
 故	geh	0%
@@ -49,7 +75,8 @@ use_preset_vocabulary: true
 小乾
 無	m
 比仔
-著	zeh
+著	zeh	100%
+覺著	koh zeh
 著	leh
 阿拉	ah la
 我伲	ah la
@@ -103,6 +130,7 @@ use_preset_vocabulary: true
 勒海	leh he
 嘞嗨	leh he
 早丄	tsau laon
+早浪	tsau laon
 侬	non
 是	z
 自	z
@@ -121,6 +149,12 @@ use_preset_vocabulary: true
 箇個	geh eh
 箇一個	geh ih eh
 箇一個	geh ih geh
+搿個	gg
+搿只	geh tseh
+搿個	geh geh
+搿個	geh eh
+搿一個	geh ih eh
+搿一個	geh ih geh
 侬好	non hau
 小囡	siau noe
 囡囡	noe noe
@@ -146,9 +180,8 @@ use_preset_vocabulary: true
 我冊那	ngu tsheh na
 哪能介	na nen ka
 那價	na nen ka
-
 嘸沒	meh
-#
+
 〇	lin
 一	ih
 一下	ih shia
@@ -3525,20 +3558,28 @@ use_preset_vocabulary: true
 伊	i	100%
 伊	yi	0%
 伊人	i nyin
+伊人	yi nyin
 渠人	yi nyin
+渠人	i nyin
 伊仔	i tsy
 伊來付	yi le fu
+伊來付	i le fu
 伊個	yi gheh
 伊哥	yi ku
 伊妹	yi me
+伊個	i gheh
+伊哥	i ku
+伊妹	i me
 伊始	i sy
 伊寧	i nyin
 伊尹	i yin
 伊川	i tshoe
 伊想	yi sian
+伊想	i sian
 伊拉	yi la
-伊拉	yi la
+伊拉	i la
 伊拉個	yi la gheh
+伊拉個	i la gheh
 伊春	i tshen
 伊是	i zy
 伊朗	i laon
@@ -4987,7 +5028,7 @@ use_preset_vocabulary: true
 儒生	zyu sen
 儒術	zyu zeh
 儔	zeu
-儕	ze
+儕	ze	100%
 儕去	ze chi
 儕好
 儕是
@@ -5419,6 +5460,7 @@ use_preset_vocabulary: true
 內項	ne ghaon
 內鬼	ne kue
 全	zie
+全	ze	0%
 全弗	zie veh
 全不	zie peh
 全乾	zie koe
@@ -16289,7 +16331,7 @@ use_preset_vocabulary: true
 徒衆
 徒費	du fi
 得	teh
-得	leh
+得	leh	0%
 得一
 得弗	teh veh
 得不	teh peh
@@ -18716,10 +18758,10 @@ use_preset_vocabulary: true
 拾趣	zeh tshiu
 拾遺	zeh yi
 拾零	zeh lin
-拿	na	0%
-拿	no	0%
+拿	na
+拿	no	100%
 拿	ne	100%
-拿	nau	0%
+拿	nau
 拿下	ne gho
 拿住	ne zyu
 拿來	ne le
@@ -19066,7 +19108,7 @@ use_preset_vocabulary: true
 掘墓
 掙	tsen
 掙破	tsen phu
-掛	ko
+掛	ko	100%
 掛了	ko liau
 掛包
 掛單	ko tae
@@ -25564,7 +25606,7 @@ use_preset_vocabulary: true
 浩大	ghau du
 浩大	ghau da
 浩繁	ghau vae
-浪	laon
+浪	laon	100%
 浪人	laon nyin
 浪向
 浪峰
@@ -35895,7 +35937,7 @@ use_preset_vocabulary: true
 葓	ghon
 葖	deh
 著	tsyu	100%
-著	zah	0%
+著	zah
 著	tsah	0%
 著文
 葚	zen
@@ -47672,7 +47714,7 @@ use_preset_vocabulary: true
 魻	ghaeh
 鯜	tshih
 丄	zaon
-丄	laon
+丄	laon	40%
 丅	gho
 卝	kuae
 卝	khuaon
@@ -47683,7 +47725,7 @@ use_preset_vocabulary: true
 𢯹	kaeh
 㨣	on
 塕	on
-上	laon
+上	laon	0%
 畀	peh
 在	laeh
 在許	laeh he
