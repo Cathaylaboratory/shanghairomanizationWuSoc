@@ -100,7 +100,7 @@ speller:
     #模糊㗂艚
     - derive/au$/ao/
     - derive/eu$/ou/
-    - derive/on$/ong/
+    - derive/ong$/on/
     - derive/an$/ang/
     - derive/in$/ing/
     - derive/en$/eng/
@@ -111,6 +111,15 @@ speller:
     - derive/ih$/ik/
     - derive/eh$/ek/
     - derive/^ts/tz/
+    - derive/^ku/kw/
+    - derive/^khu/khw/
+    - derive/^gu/gw/
+    - derive/^ngu/ngw/
+    - derive/^hu/hw/
+    - derive/^c/ky/
+    - derive/^ch/khy/
+    - derive/^j/gy/
+    - derive/^sh/hy/
 
     # 簡寫以及更多易錯模糊
     - derive/^ny(?=[aeou])/ni/
