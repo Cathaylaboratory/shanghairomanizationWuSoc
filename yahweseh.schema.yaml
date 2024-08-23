@@ -116,13 +116,15 @@ speller:
     - derive/^gu/gw/
     - derive/^ngu/ngw/
     - derive/^hu/hw/
-    - derive/^c/ky/
     - derive/^ciu/kyu/
-    - derive/^chiu/khyu/
-    - derive/^j/gy/
-    - derive/^jiu/gyu/
-    - derive/^sh/hy/
     - derive/^shiu/hyu/
+    - derive/^chiu/khyu/
+    - derive/^jiu/gyu/
+    - derive/^chi/khyi/
+    - derive/^ci/kyi/
+    - derive/^ji/gyi/
+    - derive/^shi/hyi/
+    
 
     # 簡寫以及更多易錯模糊
     - derive/^ny(?=[aeou])/ni/
