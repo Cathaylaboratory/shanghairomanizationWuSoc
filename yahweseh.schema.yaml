@@ -18,8 +18,6 @@ schema:
     - luna_pinyin
 
 switches:
-  - name: simplification
-    states: [漢字, 汉字]
   - name: ascii_mode
     reset: 0
     states: [中文, 西文]
@@ -55,7 +53,6 @@ engine:
     - script_translator
     - script_translator@luna_pinyin
   filters:
-    - simplifier
     - uniquifier
     - reverse_lookup_filter@yahweseh_reverse_lookup
 
@@ -94,16 +91,20 @@ speller:
     - derive/tshyu/tshy/
     - derive/aeh$/ah/ # 多數中派模糊前後ah
     - derive/ah$/aeh/
-    - derive/aon$/an/ # 多數中派模糊前後an
+    - derive/aon$/ang/ # 多數中派模糊前後an
 
     - derive/^zi(?=a)/y/ # 謝謝 zia ya; 好像 hau yan
     #模糊㗂艚
     - derive/au$/ao/
     - derive/eu$/ou/
-    - derive/on$/ong/
-    - derive/an$/ang/
-    - derive/in$/ing/
-    - derive/en$/eng/
+    - derive/ong$/on/
+    - derive/ang$/an/
+    - derive/ing$/in/
+    - derive/eng$/en/
+    - derive/^kyiu/cu/
+    - derive/^hyiu/xu/
+    - derive/^khyiu/chu/
+    - derive/^gyiu/ju/
 
     #模糊別個吳語拼音
     - derive/oh$/ok/
@@ -116,31 +117,41 @@ speller:
     - derive/^gu/gw/
     - derive/^ngu/ngw/
     - derive/^hu/hw/
-    - derive/^ciu/kyu/
-    - derive/^shiu/hyu/
-    - derive/^chiu/khyu/
-    - derive/^jiu/gyu/
-    - derive/^chi/khyi/
-    - derive/^ci/kyi/
-    - derive/^ji/gyi/
-    - derive/^shi/hyi/
-    
+    - derive/^khyi/chi/
+    - derive/^kyi/ci/
+    - derive/^gyi/ji/
+    - derive/^hyi/shi/
+    - derive/eu$/eo/
 
     # 簡寫以及更多易錯模糊
     - derive/^ny(?=[aeou])/ni/
     - derive/^nyi/ni/
-    - derive/^sh/x/
-    - derive/^chi/qi/
+    - derive/^hyi/x/
+    - derive/^khyi/qi/
     - derive/^gh/r/
-    - derive/^chi/ch/
-    - derive/^ci/c/
-    - derive/y$//
+    - derive/^khyi/ch/
+    - derive/^kyi/c/
+    - derive/^sy/s/
+    - derive/^zy/z/
+    - derive/^tsy/ts/
+    - derive/^tshy/tsh/
     - derive/ui(?=[nh]$)/u/
     - derive/^tsh/q/
+
+    - derive/^hyi/hi/
+    - derive/^khyi/khi/
+    - derive/^gyi/gi/
+    - derive/^kyi/ki/
+
+    - derive/^hyiu/hyu/
+    - derive/^khyiu/khyu/
+    - derive/^gyiu/gyu/
+    - derive/^kyiu/kyu/
+
     #部分清濁音弗分
     - derive/^i/y/
     - derive/^i/yi/
-    - derive/^in/yin/
+    - derive/^ing/ying/
     - derive/^u/w/
     - derive/^u/wu/
     - derive/^gh//
